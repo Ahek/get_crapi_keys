@@ -49,8 +49,8 @@ def get_current_keys():
             - sessionExpiresInSeconds(INT)
             - status(dict):
                 - code(INT)
-                - message(STR): 'ok' als goed
-                - detail(STR/None): NoneType als goed
+                - message(STR): 'ok' if everything good
+                - detail(STR/None): NoneType if good
      '''
      session = requests.Session()
      
